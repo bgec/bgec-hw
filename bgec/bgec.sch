@@ -50,18 +50,52 @@ $EndComp
 $Comp
 L LibraryLoader:TLV571IDW JoystickYADC
 U 1 1 5E535E80
-P 3500 3000
-F 0 "JoystickYADC" H 4250 3265 50  0000 C CNN
-F 1 "TLV571IDW" H 4250 3174 50  0000 C CNN
-F 2 "SOIC127P1030X265-24N" H 4850 3100 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlv571.pdf" H 4850 3000 50  0001 L CNN
-F 4 "8-Bit, 1.25 MSPS Single Ch., Hardware Config., Low Power w/Auto or S/W PowerDown" H 4850 2900 50  0001 L CNN "Description"
-F 5 "2.65" H 4850 2800 50  0001 L CNN "Height"
-F 6 "595-TLV571IDW" H 4850 2700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV571IDW" H 4850 2600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Texas Instruments" H 4850 2500 50  0001 L CNN "Manufacturer_Name"
-F 9 "TLV571IDW" H 4850 2400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3500 3000
+P 3500 2500
+F 0 "JoystickYADC" H 4250 2765 50  0000 C CNN
+F 1 "TLV571IDW" H 4250 2674 50  0000 C CNN
+F 2 "SOIC127P1030X265-24N" H 4850 2600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv571.pdf" H 4850 2500 50  0001 L CNN
+F 4 "8-Bit, 1.25 MSPS Single Ch., Hardware Config., Low Power w/Auto or S/W PowerDown" H 4850 2400 50  0001 L CNN "Description"
+F 5 "2.65" H 4850 2300 50  0001 L CNN "Height"
+F 6 "595-TLV571IDW" H 4850 2200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV571IDW" H 4850 2100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4850 2000 50  0001 L CNN "Manufacturer_Name"
+F 9 "TLV571IDW" H 4850 1900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LibraryLoader:TLV571IDW CStickXADC
+U 1 1 5E53DDAB
+P 3500 4000
+F 0 "CStickXADC" H 4250 4265 50  0000 C CNN
+F 1 "TLV571IDW" H 4250 4174 50  0000 C CNN
+F 2 "SOIC127P1030X265-24N" H 4850 4100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv571.pdf" H 4850 4000 50  0001 L CNN
+F 4 "8-Bit, 1.25 MSPS Single Ch., Hardware Config., Low Power w/Auto or S/W PowerDown" H 4850 3900 50  0001 L CNN "Description"
+F 5 "2.65" H 4850 3800 50  0001 L CNN "Height"
+F 6 "595-TLV571IDW" H 4850 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV571IDW" H 4850 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4850 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "TLV571IDW" H 4850 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LibraryLoader:TLV571IDW CStickYADC
+U 1 1 5E53DDB7
+P 3500 5500
+F 0 "CStickYADC" H 4250 5765 50  0000 C CNN
+F 1 "TLV571IDW" H 4250 5674 50  0000 C CNN
+F 2 "SOIC127P1030X265-24N" H 4850 5600 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv571.pdf" H 4850 5500 50  0001 L CNN
+F 4 "8-Bit, 1.25 MSPS Single Ch., Hardware Config., Low Power w/Auto or S/W PowerDown" H 4850 5400 50  0001 L CNN "Description"
+F 5 "2.65" H 4850 5300 50  0001 L CNN "Height"
+F 6 "595-TLV571IDW" H 4850 5200 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-TLV571IDW" H 4850 5100 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 4850 5000 50  0001 L CNN "Manufacturer_Name"
+F 9 "TLV571IDW" H 4850 4900 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3500 5500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
