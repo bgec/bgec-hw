@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name bgec)(type KiCad)(uri ${KIPRJMOD}/bgec.pretty)(options "")(descr ""))
+)
