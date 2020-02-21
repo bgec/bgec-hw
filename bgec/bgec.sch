@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LibraryLoader:AD7822BRUZ ADCJoystickX
+L bgec-components:AD7822BRUZ ADCJoystickX
 U 1 1 5E4E3FD4
 P 4500 2000
 F 0 "ADCJoystickX" H 5300 2265 50  0000 C CNN
@@ -31,7 +31,7 @@ F 9 "AD7822BRUZ" H 5950 1400 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibraryLoader:AD7822BRUZ ADCJoystickY
+L bgec-components:AD7822BRUZ ADCJoystickY
 U 1 1 5E4E4DBF
 P 4500 3500
 F 0 "ADCJoystickY" H 5300 3765 50  0000 C CNN
@@ -48,7 +48,7 @@ F 9 "AD7822BRUZ" H 5950 2900 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibraryLoader:AD7822BRUZ ADCCStickX
+L bgec-components:AD7822BRUZ ADCCStickX
 U 1 1 5E4E5FF1
 P 4500 5000
 F 0 "ADCCStickX" H 5300 5265 50  0000 C CNN
@@ -65,7 +65,7 @@ F 9 "AD7822BRUZ" H 5950 4400 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LibraryLoader:AD7822BRUZ ADCCStickY
+L bgec-components:AD7822BRUZ ADCCStickY
 U 1 1 5E4E6A54
 P 4500 6500
 F 0 "ADCCStickY" H 5300 6765 50  0000 C CNN
@@ -91,23 +91,6 @@ Text GLabel 6000 1300 0    50   Input ~ 0
 GCLogicGround
 Text GLabel 6000 1400 0    50   Input ~ 0
 GCRumbleGround
-$Comp
-L LibraryLoader:ICE40HX8K-CT256 FPGAiCE40HX-Backup
-U 1 1 5E4F6C64
-P 9000 1000
-F 0 "FPGAiCE40HX-Backup" H 10050 1265 50  0000 C CNN
-F 1 "ICE40HX8K-CT256" H 10050 1174 50  0000 C CNN
-F 2 "BGA256C80P16X16_1400X1400X170" H 10950 1100 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/iCE40HX8K-CT256.pdf" H 10950 1000 50  0001 L CNN
-F 4 "FPGA iCE40 HX Family 7680 Cells 40nm Technology 1.2V 256-Pin CSBGA" H 10950 900 50  0001 L CNN "Description"
-F 5 "1.7" H 10950 800 50  0001 L CNN "Height"
-F 6 "842-ICE40HX8K-CT256" H 10950 700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=842-ICE40HX8K-CT256" H 10950 600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Lattice Semiconductor" H 10950 500 50  0001 L CNN "Manufacturer_Name"
-F 9 "ICE40HX8K-CT256" H 10950 400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9000 1000
-	1    0    0    -1  
-$EndComp
 $Comp
 L bgec-components:ICE40HX8K-CT256 FPGAiCE40HX
 U 1 1 5E50B913
