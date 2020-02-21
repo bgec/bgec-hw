@@ -14,23 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LibraryLoader:ICE40HX8K-CT256 FPGAiCE40HX
-U 1 1 5E4F6C64
-P 1000 1000
-F 0 "FPGAiCE40HX" H 2050 1265 50  0000 C CNN
-F 1 "ICE40HX8K-CT256" H 2050 1174 50  0000 C CNN
-F 2 "BGA256C80P16X16_1400X1400X170" H 2950 1100 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/iCE40HX8K-CT256.pdf" H 2950 1000 50  0001 L CNN
-F 4 "FPGA iCE40 HX Family 7680 Cells 40nm Technology 1.2V 256-Pin CSBGA" H 2950 900 50  0001 L CNN "Description"
-F 5 "1.7" H 2950 800 50  0001 L CNN "Height"
-F 6 "842-ICE40HX8K-CT256" H 2950 700 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=842-ICE40HX8K-CT256" H 2950 600 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Lattice Semiconductor" H 2950 500 50  0001 L CNN "Manufacturer_Name"
-F 9 "ICE40HX8K-CT256" H 2950 400 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1000 1000
-	1    0    0    -1  
-$EndComp
-$Comp
 L LibraryLoader:AD7822BRUZ ADCJoystickX
 U 1 1 5E4E3FD4
 P 3500 1000
@@ -98,4 +81,63 @@ F 9 "AD7822BRUZ" H 4950 4900 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3500 5500
 	1    0    0    -1  
 $EndComp
+Text GLabel 6000 1000 0    50   Input ~ 0
+GCLogic
+Text GLabel 6000 1100 0    50   Input ~ 0
+GCRumble
+Text GLabel 6000 1200 0    50   Input ~ 0
+GCData
+Text GLabel 6000 1300 0    50   Input ~ 0
+GCLogicGround
+Text GLabel 6000 1400 0    50   Input ~ 0
+GCRumbleGround
+$Comp
+L LibraryLoader:ICE40HX8K-CT256 FPGAiCE40HX-Backup
+U 1 1 5E4F6C64
+P 6500 1000
+F 0 "FPGAiCE40HX-Backup" H 7550 1265 50  0000 C CNN
+F 1 "ICE40HX8K-CT256" H 7550 1174 50  0000 C CNN
+F 2 "BGA256C80P16X16_1400X1400X170" H 8450 1100 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/iCE40HX8K-CT256.pdf" H 8450 1000 50  0001 L CNN
+F 4 "FPGA iCE40 HX Family 7680 Cells 40nm Technology 1.2V 256-Pin CSBGA" H 8450 900 50  0001 L CNN "Description"
+F 5 "1.7" H 8450 800 50  0001 L CNN "Height"
+F 6 "842-ICE40HX8K-CT256" H 8450 700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=842-ICE40HX8K-CT256" H 8450 600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Lattice Semiconductor" H 8450 500 50  0001 L CNN "Manufacturer_Name"
+F 9 "ICE40HX8K-CT256" H 8450 400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bgec-components:ICE40HX8K-CT256 FPGAiCE40HX
+U 1 1 5E50B913
+P 1000 1500
+F 0 "FPGAiCE40HX" H 1400 2100 50  0000 L CNN
+F 1 "ICE40HX8K-CT256" H 1400 2000 50  0000 L CNN
+F 2 "LibraryLoader:BGA256C80P16X16_1400X1400X170" H 1750 2250 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1750 2250 50  0001 C CNN
+	1    1000 1500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1500 1100 0    50   Input ~ 0
+GCLogic
+Wire Wire Line
+	1500 1100 1600 1100
+Wire Wire Line
+	1600 1100 1600 1200
+Wire Wire Line
+	1600 1100 1700 1100
+Wire Wire Line
+	1700 1100 1700 1200
+Connection ~ 1600 1100
+Wire Wire Line
+	1700 1100 1800 1100
+Wire Wire Line
+	1800 1100 1800 1200
+Connection ~ 1700 1100
+Wire Wire Line
+	1800 1100 1900 1100
+Wire Wire Line
+	1900 1100 1900 1200
+Connection ~ 1800 1100
 $EndSCHEMATC
