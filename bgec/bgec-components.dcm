@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD7822BRUZ
+D AD7822BRUZ, 8 bit ADC, Parallel, 20-Pin TSSOP
+F https://componentsearchengine.com/Datasheets/1/AD7822BRUZ.pdf
+$ENDCMP
+#
 $CMP ICE40HX8K-CT256
 D iCE40 HX FPGA, 7680 LUTs, 1.2V, CT-256
 K FPGA programmable logic
