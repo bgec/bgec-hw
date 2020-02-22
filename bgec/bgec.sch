@@ -81,15 +81,15 @@ F 9 "AD7822BRUZ" H 5950 5900 50  0001 L CNN "Manufacturer_Part_Number"
 	1    4500 6500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6000 1000 0    50   Input ~ 0
+Text GLabel 5500 1000 0    50   Input ~ 0
 GCLogic
-Text GLabel 6000 1100 0    50   Input ~ 0
+Text GLabel 5500 1100 0    50   Input ~ 0
 GCRumble
-Text GLabel 6000 1200 0    50   Input ~ 0
+Text GLabel 5500 1200 0    50   Input ~ 0
 GCData
-Text GLabel 6000 1300 0    50   Input ~ 0
+Text GLabel 5500 1300 0    50   Input ~ 0
 GCLogicGround
-Text GLabel 6000 1400 0    50   Input ~ 0
+Text GLabel 5500 1400 0    50   Input ~ 0
 GCRumbleGround
 $Comp
 L bgec:ICE40HX8K-CT256 FPGAiCE40HX
@@ -154,4 +154,106 @@ Wire Wire Line
 Wire Wire Line
 	3900 1100 3900 1200
 Connection ~ 3800 1100
+$Comp
+L bgec:DSC6001CI2A-016.0000T CLK16MHz
+U 1 1 5E554F81
+P 7500 1000
+F 0 "CLK16MHz" H 7900 1450 50  0000 C CNN
+F 1 "DSC6001CI2A-016.0000T" H 7900 1350 50  0000 C CNN
+F 2 "4-LEAD_CDFN-3.2X2.5_1" H 8600 2500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/DSC6001CI2A-016.0000T.pdf" H 8600 2400 50  0001 L CNN
+F 4 "Standard Clock Oscillators MEMS Oscillator, Ultra Low Power, LVCMOS, -40C-85C, 25ppm, 3.2x2.5mm" H 8600 2300 50  0001 L CNN "Description"
+F 5 "" H 8150 800 50  0001 L CNN "Height"
+F 6 "579-6001CI2A0160000T" H 8600 2100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-6001CI2A0160000T" H 8600 2000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 8600 1900 50  0001 L CNN "Manufacturer_Name"
+F 9 "DSC6001CI2A-016.0000T" H 8600 1800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7500 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8500 1100 2    50   Input ~ 0
+CLK
+Wire Wire Line
+	8300 1100 8500 1100
+Text GLabel 7000 800  0    50   Input ~ 0
+GCLogic
+Wire Wire Line
+	8300 800  8300 1000
+Wire Wire Line
+	7500 1000 7500 800 
+Connection ~ 7500 800 
+Wire Wire Line
+	7500 800  8300 800 
+Wire Wire Line
+	5500 1000 5600 1000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E562812
+P 5600 1000
+F 0 "#PWR?" H 5600 850 50  0001 C CNN
+F 1 "+3V3" V 5615 1128 50  0000 L CNN
+F 2 "" H 5600 1000 50  0001 C CNN
+F 3 "" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 1100 5600 1100
+$Comp
+L power:+5V #PWR?
+U 1 1 5E564ED9
+P 5600 1100
+F 0 "#PWR?" H 5600 950 50  0001 C CNN
+F 1 "+5V" V 5615 1228 50  0000 L CNN
+F 2 "" H 5600 1100 50  0001 C CNN
+F 3 "" H 5600 1100 50  0001 C CNN
+	1    5600 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5E566884
+P 7250 1100
+F 0 "C1" V 7502 1100 50  0000 C CNN
+F 1 "100nF" V 7411 1100 50  0000 C CNN
+F 2 "" H 7288 950 50  0001 C CNN
+F 3 "~" H 7250 1100 50  0001 C CNN
+	1    7250 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 800  7100 800 
+Wire Wire Line
+	7100 800  7100 1100
+Connection ~ 7100 800 
+Wire Wire Line
+	7100 800  7500 800 
+Wire Wire Line
+	7400 1100 7500 1100
+Wire Wire Line
+	5500 1300 5600 1300
+$Comp
+L power:GND #PWR?
+U 1 1 5E570CAB
+P 5600 1300
+F 0 "#PWR?" H 5600 1050 50  0001 C CNN
+F 1 "GND" V 5605 1172 50  0000 R CNN
+F 2 "" H 5600 1300 50  0001 C CNN
+F 3 "" H 5600 1300 50  0001 C CNN
+	1    5600 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E5721CB
+P 5600 1400
+F 0 "#PWR?" H 5600 1150 50  0001 C CNN
+F 1 "GND" V 5605 1272 50  0000 R CNN
+F 2 "" H 5600 1400 50  0001 C CNN
+F 3 "" H 5600 1400 50  0001 C CNN
+	1    5600 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 1400 5600 1400
 $EndSCHEMATC
