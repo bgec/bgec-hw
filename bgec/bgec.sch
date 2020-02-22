@@ -216,7 +216,7 @@ U 1 1 5E566884
 P 7150 1100
 F 0 "C1" V 7402 1100 50  0000 C CNN
 F 1 "100nF" V 7311 1100 50  0000 C CNN
-F 2 "" H 7188 950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7188 950 50  0001 C CNN
 F 3 "~" H 7150 1100 50  0001 C CNN
 	1    7150 1100
 	0    -1   -1   0   
@@ -267,4 +267,12 @@ Wire Wire Line
 	7400 1100 7500 1100
 Text GLabel 7500 1300 2    50   Input ~ 0
 GCLogicGround
+Text GLabel 800  4100 0    50   Input ~ 0
+RESET
+Text GLabel 800  4000 0    50   Input ~ 0
+CLK
+Wire Wire Line
+	800  4000 1000 4000
+Wire Wire Line
+	800  4100 1000 4100
 $EndSCHEMATC
