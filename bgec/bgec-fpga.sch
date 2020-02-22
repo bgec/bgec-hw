@@ -13,143 +13,102 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2000 1100 0    50   Input ~ 0
+Text GLabel 1500 900  0    50   Input ~ 0
 GCLogic
 Wire Wire Line
-	2000 1100 2100 1100
+	4000 3900 3900 3900
 Wire Wire Line
-	2100 1100 2100 1200
+	3900 4000 4000 4000
 Wire Wire Line
-	2100 1100 2200 1100
+	4000 4100 3900 4100
 Wire Wire Line
-	2200 1100 2200 1200
-Connection ~ 2100 1100
+	3900 4200 4000 4200
 Wire Wire Line
-	2200 1100 2300 1100
+	3900 3800 4000 3800
 Wire Wire Line
-	2300 1100 2300 1200
-Connection ~ 2200 1100
+	4000 3700 3900 3700
 Wire Wire Line
-	2300 1100 2400 1100
+	3900 3600 4000 3600
 Wire Wire Line
-	2400 1100 2400 1200
-Connection ~ 2300 1100
+	3900 3500 4000 3500
 Wire Wire Line
-	2400 1100 4100 1100
+	3900 3400 4000 3400
 Wire Wire Line
-	4100 1100 4100 1200
-Connection ~ 2400 1100
+	3900 3300 4000 3300
 Wire Wire Line
-	4100 1100 4200 1100
+	3900 2400 4000 2400
 Wire Wire Line
-	4200 1100 4200 1200
-Connection ~ 4100 1100
+	3900 2300 4000 2300
 Wire Wire Line
-	4200 1100 4300 1100
+	3900 2200 4000 2200
 Wire Wire Line
-	4300 1100 4300 1200
-Connection ~ 4200 1100
+	3900 2100 4000 2100
 Wire Wire Line
-	4300 1100 4400 1100
+	3900 2000 4000 2000
 Wire Wire Line
-	4400 1100 4400 1200
-Connection ~ 4300 1100
+	3900 1900 4000 1900
 Wire Wire Line
-	1500 5800 1400 5800
+	3900 1800 4000 1800
 Wire Wire Line
-	1400 5900 1500 5900
+	4000 1700 3900 1700
 Wire Wire Line
-	1500 6000 1400 6000
+	3900 1600 4000 1600
 Wire Wire Line
-	1400 6100 1500 6100
+	4000 1500 3900 1500
 Wire Wire Line
-	1500 6200 1400 6200
+	1500 4000 1400 4000
 Wire Wire Line
-	1400 6300 1500 6300
-Wire Wire Line
-	1400 5700 1500 5700
-Wire Wire Line
-	1500 5600 1400 5600
-Wire Wire Line
-	1400 5500 1500 5500
-Wire Wire Line
-	1400 5400 1500 5400
-Wire Wire Line
-	1400 5300 1500 5300
-Wire Wire Line
-	1400 5200 1500 5200
-Wire Wire Line
-	1400 5100 1500 5100
-Wire Wire Line
-	1400 5000 1500 5000
-Wire Wire Line
-	1400 4900 1500 4900
-Wire Wire Line
-	1400 4800 1500 4800
-Wire Wire Line
-	1400 4700 1500 4700
-Wire Wire Line
-	1400 4600 1500 4600
-Wire Wire Line
-	1400 4500 1500 4500
-Wire Wire Line
-	1500 4400 1400 4400
-Wire Wire Line
-	1400 4300 1500 4300
-Wire Wire Line
-	1500 4200 1400 4200
-Wire Wire Line
-	1500 3900 1400 3900
-Wire Wire Line
-	1400 3800 1500 3800
-Wire Wire Line
-	1500 3700 1400 3700
-Wire Wire Line
-	1400 3600 1500 3600
-Wire Wire Line
-	1500 3500 1400 3500
-Wire Wire Line
-	1400 3400 1500 3400
-Text GLabel 1400 6100 0    50   Input ~ 0
+	1400 3900 1500 3900
+Text GLabel 3900 4200 0    50   Input ~ 0
 TriggerRDB0
-Text GLabel 1400 6000 0    50   Input ~ 0
+Text GLabel 3900 4100 0    50   Input ~ 0
 TriggerRDB1
-Text GLabel 1400 5900 0    50   Input ~ 0
+Text GLabel 3900 4000 0    50   Input ~ 0
 TriggerRDB2
-Text GLabel 1400 5800 0    50   Input ~ 0
+Text GLabel 3900 3900 0    50   Input ~ 0
 TriggerRDB3
-Text GLabel 1400 5700 0    50   Input ~ 0
+Text GLabel 3900 3800 0    50   Input ~ 0
 TriggerRDB4
-Text GLabel 1400 5600 0    50   Input ~ 0
+Text GLabel 3900 3700 0    50   Input ~ 0
 TriggerRDB5
-Text GLabel 1400 5500 0    50   Input ~ 0
+Text GLabel 3900 3600 0    50   Input ~ 0
 TriggerRDB6
-Text GLabel 1400 5400 0    50   Input ~ 0
+Text GLabel 3900 3500 0    50   Input ~ 0
 TriggerRDB7
-Text GLabel 1400 5300 0    50   Input ~ 0
+Text GLabel 3900 3400 0    50   Input ~ 0
 TriggerREOC
-Text GLabel 1400 5100 0    50   Input ~ 0
+Text GLabel 3900 2400 0    50   Input ~ 0
 TriggerLDB0
-Text GLabel 1400 5000 0    50   Input ~ 0
+Text GLabel 3900 2300 0    50   Input ~ 0
 TriggerLDB1
-Text GLabel 1400 4900 0    50   Input ~ 0
+Text GLabel 3900 2200 0    50   Input ~ 0
 TriggerLDB2
-Text GLabel 1400 4800 0    50   Input ~ 0
+Text GLabel 3900 2100 0    50   Input ~ 0
 TriggerLDB3
-Text GLabel 1400 4700 0    50   Input ~ 0
+Text GLabel 3900 2000 0    50   Input ~ 0
 TriggerLDB4
-Text GLabel 1400 4600 0    50   Input ~ 0
+Text GLabel 3900 1900 0    50   Input ~ 0
 TriggerLDB5
-Text GLabel 1400 4500 0    50   Input ~ 0
+Text GLabel 3900 1800 0    50   Input ~ 0
 TriggerLDB6
-Text GLabel 1400 4400 0    50   Input ~ 0
+Text GLabel 3900 1700 0    50   Input ~ 0
 TriggerLDB7
-Text GLabel 1400 4300 0    50   Input ~ 0
+Text GLabel 3900 1600 0    50   Input ~ 0
 TriggerLEOC
 Wire Wire Line
 	1400 1500 1500 1500
 Text GLabel 1400 1500 0    50   Input ~ 0
 GCData
+Wire Wire Line
+	1400 3800 1500 3800
+Wire Wire Line
+	1400 3700 1500 3700
+Wire Wire Line
+	1400 3600 1500 3600
+Wire Wire Line
+	1400 3500 1500 3500
+Wire Wire Line
+	1400 3400 1500 3400
 Wire Wire Line
 	1400 3300 1500 3300
 Wire Wire Line
@@ -157,34 +116,24 @@ Wire Wire Line
 Wire Wire Line
 	1400 3100 1500 3100
 Wire Wire Line
-	1400 3000 1500 3000
-Wire Wire Line
-	1400 2900 1500 2900
-Wire Wire Line
-	1400 2800 1500 2800
-Wire Wire Line
-	1400 2700 1500 2700
-Wire Wire Line
-	1400 2600 1500 2600
-Wire Wire Line
 	1400 2500 1500 2500
-Text GLabel 1400 2800 0    50   Input ~ 0
-JoystickYDB7
-Text GLabel 1400 2900 0    50   Input ~ 0
-JoystickYDB6
-Text GLabel 1400 3000 0    50   Input ~ 0
-JoystickYDB5
-Text GLabel 1400 3100 0    50   Input ~ 0
-JoystickYDB4
-Text GLabel 1400 3200 0    50   Input ~ 0
-JoystickYDB3
 Text GLabel 1400 3300 0    50   Input ~ 0
-JoystickYDB2
+JoystickYDB7
 Text GLabel 1400 3400 0    50   Input ~ 0
-JoystickYDB1
+JoystickYDB6
 Text GLabel 1400 3500 0    50   Input ~ 0
+JoystickYDB5
+Text GLabel 1400 3600 0    50   Input ~ 0
+JoystickYDB4
+Text GLabel 1400 3700 0    50   Input ~ 0
+JoystickYDB3
+Text GLabel 1400 3800 0    50   Input ~ 0
+JoystickYDB2
+Text GLabel 1400 3900 0    50   Input ~ 0
+JoystickYDB1
+Text GLabel 1400 4000 0    50   Input ~ 0
 JoystickYDB0
-Text GLabel 1400 2700 0    50   Input ~ 0
+Text GLabel 1400 3200 0    50   Input ~ 0
 JoystickYEOC
 Wire Wire Line
 	1400 2400 1500 2400
@@ -223,37 +172,77 @@ JoystickXDB0
 Text GLabel 1400 1700 0    50   Input ~ 0
 JoystickXEOC
 Wire Wire Line
-	1300 4100 1500 4100
+	1300 3000 1500 3000
 Wire Wire Line
-	1300 4000 1500 4000
-Text GLabel 1300 4000 0    50   Input ~ 0
+	1300 2900 1500 2900
+Text GLabel 1300 2900 0    50   Input ~ 0
 CLK
-Text GLabel 1300 4100 0    50   Input ~ 0
+Text GLabel 1300 3000 0    50   Input ~ 0
 RESET
 $Comp
-L bgec:ICE40HX8K-CT256 FPGAiCE40HX?
-U 2 1 5E7127EF
-P 3500 1500
-AR Path="/5E7127EF" Ref="FPGAiCE40HX?"  Part="2" 
-AR Path="/5E6B62E5/5E7127EF" Ref="FPGAiCE40HX1"  Part="2" 
-F 0 "FPGAiCE40HX1" H 3900 2100 50  0000 L CNN
-F 1 "ICE40HX8K-CT256" H 3900 2000 50  0000 L CNN
-F 2 "bgec:BGA256C80P16X16_1400X1400X170" H 4750 2500 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 4600 2400 50  0001 C CNN
-	2    3500 1500
+L FPGA_Lattice:ICE40HX4K-TQ144 FPGAiCE40HX1
+U 1 1 5E519664
+P 2000 2700
+F 0 "FPGAiCE40HX1" H 2349 2928 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 2349 2837 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 3000 800 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1000 5200 50  0001 C CNN
+	1    2000 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L bgec:ICE40HX8K-CT256 FPGAiCE40HX?
-U 1 1 5E7127F5
-P 1500 1500
-AR Path="/5E7127F5" Ref="FPGAiCE40HX?"  Part="1" 
-AR Path="/5E6B62E5/5E7127F5" Ref="FPGAiCE40HX1"  Part="1" 
-F 0 "FPGAiCE40HX1" H 1900 2100 50  0000 L CNN
-F 1 "ICE40HX8K-CT256" H 1900 2000 50  0000 L CNN
-F 2 "bgec:BGA256C80P16X16_1400X1400X170" H 2250 2250 50  0001 C CNN
-F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 2250 2250 50  0001 C CNN
-	1    1500 1500
+L FPGA_Lattice:ICE40HX4K-TQ144 FPGAiCE40HX1
+U 2 1 5E5231A3
+P 4500 2800
+F 0 "FPGAiCE40HX1" H 4849 3028 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 4849 2937 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 5500 900 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 3500 5300 50  0001 C CNN
+	2    4500 2800
 	1    0    0    -1  
 $EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 FPGAiCE40HX1
+U 3 1 5E52A92F
+P 7000 2300
+F 0 "FPGAiCE40HX1" H 7399 2528 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 7399 2437 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 8000 400 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 6000 4800 50  0001 C CNN
+	3    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 FPGAiCE40HX1
+U 4 1 5E52E7E2
+P 9500 2700
+F 0 "FPGAiCE40HX1" H 9849 2878 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 9849 2787 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 10500 800 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 8500 5200 50  0001 C CNN
+	4    9500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40HX4K-TQ144 FPGAiCE40HX1
+U 5 1 5E531BCE
+P 2600 6100
+F 0 "FPGAiCE40HX1" H 3344 6146 50  0000 L CNN
+F 1 "ICE40HX4K-TQ144" H 3344 6055 50  0000 L CNN
+F 2 "Package_QFP:TQFP-144_20x20mm_P0.5mm" H 3600 4200 50  0001 R CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40" H 1600 8600 50  0001 C CNN
+	5    2600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 900  2000 900 
+Wire Wire Line
+	2000 900  4500 900 
+Connection ~ 2000 900 
+Wire Wire Line
+	4500 900  7000 900 
+Connection ~ 4500 900 
+Wire Wire Line
+	7000 900  9500 900 
+Connection ~ 7000 900 
 $EndSCHEMATC
