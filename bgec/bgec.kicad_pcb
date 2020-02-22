@@ -821,7 +821,7 @@
   )
 
   (module LibraryLoader:4-LEAD_CDFN-3.2X2.5_1 (layer F.Cu) (tedit 0) (tstamp 5E517CBF)
-    (at 161.46518 111.633)
+    (at 161.465 111.633)
     (descr 4-Lead_CDFN-3.2x2.5)
     (tags "Crystal or Oscillator")
     (path /5E554F81)
