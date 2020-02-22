@@ -466,4 +466,68 @@ Wire Wire Line
 	10250 700  10150 700 
 Wire Wire Line
 	10250 700  10250 750 
+Text GLabel 4400 2700 0    50   Input ~ 0
+CStickYDB0
+Text GLabel 4400 2600 0    50   Input ~ 0
+CStickYDB1
+Text GLabel 4400 2500 0    50   Input ~ 0
+CStickYDB2
+Text GLabel 6200 2500 2    50   Input ~ 0
+CStickYDB3
+Text GLabel 6200 2600 2    50   Input ~ 0
+CStickYDB4
+Text GLabel 6200 2700 2    50   Input ~ 0
+CStickYDB5
+Text GLabel 6200 2800 2    50   Input ~ 0
+CStickYDB6
+Text GLabel 6200 2900 2    50   Input ~ 0
+CStickYDB7
+Wire Wire Line
+	4400 2500 4500 2500
+Wire Wire Line
+	4500 2600 4400 2600
+Wire Wire Line
+	4400 2700 4500 2700
+Wire Wire Line
+	6100 2900 6200 2900
+Wire Wire Line
+	6200 2800 6100 2800
+Wire Wire Line
+	6100 2700 6200 2700
+Wire Wire Line
+	6200 2600 6100 2600
+Wire Wire Line
+	6100 2500 6200 2500
+Text GLabel 4400 1200 0    50   Input ~ 0
+CStickXDB0
+Text GLabel 4400 1100 0    50   Input ~ 0
+CStickXDB1
+Text GLabel 4400 1000 0    50   Input ~ 0
+CStickXDB2
+Wire Wire Line
+	4400 1000 4500 1000
+Wire Wire Line
+	4500 1100 4400 1100
+Wire Wire Line
+	4400 1200 4500 1200
+Text GLabel 6200 1000 2    50   Input ~ 0
+CStickXDB3
+Text GLabel 6200 1100 2    50   Input ~ 0
+CStickXDB4
+Text GLabel 6200 1200 2    50   Input ~ 0
+CStickXDB5
+Text GLabel 6200 1300 2    50   Input ~ 0
+CStickXDB6
+Text GLabel 6200 1400 2    50   Input ~ 0
+CStickXDB7
+Wire Wire Line
+	6100 1400 6200 1400
+Wire Wire Line
+	6200 1300 6100 1300
+Wire Wire Line
+	6100 1200 6200 1200
+Wire Wire Line
+	6200 1100 6100 1100
+Wire Wire Line
+	6100 1000 6200 1000
 $EndSCHEMATC

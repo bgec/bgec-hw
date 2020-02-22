@@ -245,4 +245,80 @@ Connection ~ 4500 900
 Wire Wire Line
 	7000 900  9500 900 
 Connection ~ 7000 900 
+Wire Wire Line
+	8900 2400 9000 2400
+Wire Wire Line
+	8900 2300 9000 2300
+Wire Wire Line
+	8900 2200 9000 2200
+Wire Wire Line
+	8900 2100 9000 2100
+Wire Wire Line
+	8900 2000 9000 2000
+Wire Wire Line
+	8900 1900 9000 1900
+Wire Wire Line
+	8900 1800 9000 1800
+Wire Wire Line
+	9000 1700 8900 1700
+Wire Wire Line
+	8900 1600 9000 1600
+Wire Wire Line
+	9000 1500 8900 1500
+Text GLabel 8900 2400 0    50   Input ~ 0
+CStickXDB0
+Text GLabel 8900 2300 0    50   Input ~ 0
+CStickXDB1
+Text GLabel 8900 2200 0    50   Input ~ 0
+CStickXDB2
+Text GLabel 8900 2100 0    50   Input ~ 0
+CStickXDB3
+Text GLabel 8900 2000 0    50   Input ~ 0
+CStickXDB4
+Text GLabel 8900 1900 0    50   Input ~ 0
+CStickXDB5
+Text GLabel 8900 1800 0    50   Input ~ 0
+CStickXDB6
+Text GLabel 8900 1700 0    50   Input ~ 0
+CStickXDB7
+Text GLabel 8900 1600 0    50   Input ~ 0
+CStickXEOC
+Wire Wire Line
+	8900 4100 9000 4100
+Wire Wire Line
+	8900 4000 9000 4000
+Wire Wire Line
+	8900 3900 9000 3900
+Wire Wire Line
+	8900 3800 9000 3800
+Wire Wire Line
+	8900 3700 9000 3700
+Wire Wire Line
+	8900 3600 9000 3600
+Wire Wire Line
+	8900 3500 9000 3500
+Wire Wire Line
+	9000 3400 8900 3400
+Wire Wire Line
+	8900 3300 9000 3300
+Wire Wire Line
+	9000 3200 8900 3200
+Text GLabel 8900 4100 0    50   Input ~ 0
+CStickYDB0
+Text GLabel 8900 4000 0    50   Input ~ 0
+CStickYDB1
+Text GLabel 8900 3900 0    50   Input ~ 0
+CStickYDB2
+Text GLabel 8900 3800 0    50   Input ~ 0
+CStickYDB3
+Text GLabel 8900 3700 0    50   Input ~ 0
+CStickYDB4
+Text GLabel 8900 3600 0    50   Input ~ 0
+CStickYDB5
+Text GLabel 8900 3500 0    50   Input ~ 0
+CStickYDB6
+Text GLabel 8900 3400 0    50   Input ~ 0
+CStickYDB7
+Text GLabel 8900 3300 0    50   Input ~ 0
+CStickYEOC
 $EndSCHEMATC
