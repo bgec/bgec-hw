@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -387,4 +387,44 @@ Wire Wire Line
 	2600 6800 2600 7500
 Wire Wire Line
 	2600 7500 2700 7500
+Text GLabel 6400 1500 0    50   Input ~ 0
+USBData-
+Text GLabel 6400 1600 0    50   Input ~ 0
+USBData+
+Wire Wire Line
+	6400 1500 6500 1500
+Wire Wire Line
+	6400 1600 6500 1600
+Text GLabel 6400 1700 0    50   Input ~ 0
+USBRX1-
+Text GLabel 6400 1800 0    50   Input ~ 0
+USBRX1+
+Text GLabel 6400 1900 0    50   Input ~ 0
+USBTX1-
+Text GLabel 6400 2000 0    50   Input ~ 0
+USBTX1+
+Text GLabel 6400 2100 0    50   Input ~ 0
+USBRX2-
+Text GLabel 6400 2200 0    50   Input ~ 0
+USBRX2+
+Text GLabel 6400 2300 0    50   Input ~ 0
+USBTX2-
+Text GLabel 6400 2400 0    50   Input ~ 0
+USBTX2+
+Wire Wire Line
+	6400 1700 6500 1700
+Wire Wire Line
+	6400 1800 6500 1800
+Wire Wire Line
+	6400 1900 6500 1900
+Wire Wire Line
+	6400 2000 6500 2000
+Wire Wire Line
+	6400 2100 6500 2100
+Wire Wire Line
+	6400 2200 6500 2200
+Wire Wire Line
+	6400 2300 6500 2300
+Wire Wire Line
+	6400 2400 6500 2400
 $EndSCHEMATC

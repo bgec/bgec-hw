@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "bgec"
 Date "2020-02-19"
 Rev "0.1.0"
@@ -148,4 +148,10 @@ F1 "bgec-analog.sch" 50
 $EndSheet
 Text GLabel 5000 4300 2    50   Input ~ 0
 GCLogicGround
+$Sheet
+S 5000 1000 1000 1000
+U 5E5D99D4
+F0 "bgec USB" 50
+F1 "bgec-usb.sch" 50
+$EndSheet
 $EndSCHEMATC
