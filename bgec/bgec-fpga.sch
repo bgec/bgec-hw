@@ -16,25 +16,29 @@ $EndDescr
 Text GLabel 1500 900  0    50   Input ~ 0
 GCLogic
 Wire Wire Line
+	4000 3700 3900 3700
+Wire Wire Line
+	3900 3800 4000 3800
+Wire Wire Line
 	4000 3900 3900 3900
 Wire Wire Line
 	3900 4000 4000 4000
 Wire Wire Line
-	4000 4100 3900 4100
-Wire Wire Line
-	3900 4200 4000 4200
-Wire Wire Line
-	3900 3800 4000 3800
-Wire Wire Line
-	4000 3700 3900 3700
-Wire Wire Line
 	3900 3600 4000 3600
 Wire Wire Line
-	3900 3500 4000 3500
+	4000 3500 3900 3500
 Wire Wire Line
 	3900 3400 4000 3400
 Wire Wire Line
 	3900 3300 4000 3300
+Wire Wire Line
+	3900 3000 4000 3000
+Wire Wire Line
+	3900 2900 4000 2900
+Wire Wire Line
+	3900 2600 4000 2600
+Wire Wire Line
+	3900 2500 4000 2500
 Wire Wire Line
 	3900 2400 4000 2400
 Wire Wire Line
@@ -46,59 +50,57 @@ Wire Wire Line
 Wire Wire Line
 	3900 2000 4000 2000
 Wire Wire Line
-	3900 1900 4000 1900
-Wire Wire Line
-	3900 1800 4000 1800
-Wire Wire Line
-	4000 1700 3900 1700
+	4000 1900 3900 1900
 Wire Wire Line
 	3900 1600 4000 1600
 Wire Wire Line
 	4000 1500 3900 1500
 Wire Wire Line
-	1500 4000 1400 4000
+	1500 4100 1400 4100
 Wire Wire Line
-	1400 3900 1500 3900
-Text GLabel 3900 4200 0    50   Input ~ 0
-TriggerRDB0
-Text GLabel 3900 4100 0    50   Input ~ 0
-TriggerRDB1
+	1400 4000 1500 4000
 Text GLabel 3900 4000 0    50   Input ~ 0
-TriggerRDB2
+TriggerRDB0
 Text GLabel 3900 3900 0    50   Input ~ 0
-TriggerRDB3
+TriggerRDB1
 Text GLabel 3900 3800 0    50   Input ~ 0
-TriggerRDB4
+TriggerRDB2
 Text GLabel 3900 3700 0    50   Input ~ 0
-TriggerRDB5
+TriggerRDB3
 Text GLabel 3900 3600 0    50   Input ~ 0
-TriggerRDB6
+TriggerRDB4
 Text GLabel 3900 3500 0    50   Input ~ 0
-TriggerRDB7
+TriggerRDB5
 Text GLabel 3900 3400 0    50   Input ~ 0
-TriggerREOC
-Text GLabel 3900 2400 0    50   Input ~ 0
+TriggerRDB6
+Text GLabel 3900 3300 0    50   Input ~ 0
+TriggerRDB7
+Text GLabel 3900 2800 0    50   Input ~ 0
+TriggerRNotEOC
+Text GLabel 3900 2600 0    50   Input ~ 0
 TriggerLDB0
-Text GLabel 3900 2300 0    50   Input ~ 0
+Text GLabel 3900 2500 0    50   Input ~ 0
 TriggerLDB1
-Text GLabel 3900 2200 0    50   Input ~ 0
+Text GLabel 3900 2400 0    50   Input ~ 0
 TriggerLDB2
-Text GLabel 3900 2100 0    50   Input ~ 0
+Text GLabel 3900 2300 0    50   Input ~ 0
 TriggerLDB3
-Text GLabel 3900 2000 0    50   Input ~ 0
+Text GLabel 3900 2200 0    50   Input ~ 0
 TriggerLDB4
-Text GLabel 3900 1900 0    50   Input ~ 0
+Text GLabel 3900 2100 0    50   Input ~ 0
 TriggerLDB5
-Text GLabel 3900 1800 0    50   Input ~ 0
+Text GLabel 3900 2000 0    50   Input ~ 0
 TriggerLDB6
-Text GLabel 3900 1700 0    50   Input ~ 0
+Text GLabel 3900 1900 0    50   Input ~ 0
 TriggerLDB7
 Text GLabel 3900 1600 0    50   Input ~ 0
-TriggerLEOC
+TriggerLNotEOC
 Wire Wire Line
 	1400 1500 1500 1500
 Text GLabel 1400 1500 0    50   Input ~ 0
 GCData
+Wire Wire Line
+	1400 3900 1500 3900
 Wire Wire Line
 	1400 3800 1500 3800
 Wire Wire Line
@@ -110,31 +112,33 @@ Wire Wire Line
 Wire Wire Line
 	1400 3400 1500 3400
 Wire Wire Line
-	1400 3300 1500 3300
-Wire Wire Line
 	1400 3200 1500 3200
 Wire Wire Line
 	1400 3100 1500 3100
 Wire Wire Line
-	1400 2500 1500 2500
-Text GLabel 1400 3300 0    50   Input ~ 0
-JoystickYDB7
+	1400 2700 1500 2700
 Text GLabel 1400 3400 0    50   Input ~ 0
-JoystickYDB6
+JoystickYDB7
 Text GLabel 1400 3500 0    50   Input ~ 0
-JoystickYDB5
+JoystickYDB6
 Text GLabel 1400 3600 0    50   Input ~ 0
-JoystickYDB4
+JoystickYDB5
 Text GLabel 1400 3700 0    50   Input ~ 0
-JoystickYDB3
+JoystickYDB4
 Text GLabel 1400 3800 0    50   Input ~ 0
-JoystickYDB2
+JoystickYDB3
 Text GLabel 1400 3900 0    50   Input ~ 0
-JoystickYDB1
+JoystickYDB2
 Text GLabel 1400 4000 0    50   Input ~ 0
+JoystickYDB1
+Text GLabel 1400 4100 0    50   Input ~ 0
 JoystickYDB0
-Text GLabel 1400 3200 0    50   Input ~ 0
-JoystickYEOC
+Text GLabel 1400 3100 0    50   Input ~ 0
+JoystickYNotEOC
+Wire Wire Line
+	1400 2600 1500 2600
+Wire Wire Line
+	1500 2500 1400 2500
 Wire Wire Line
 	1400 2400 1500 2400
 Wire Wire Line
@@ -146,31 +150,27 @@ Wire Wire Line
 Wire Wire Line
 	1400 2000 1500 2000
 Wire Wire Line
-	1500 1900 1400 1900
-Wire Wire Line
-	1400 1800 1500 1800
-Wire Wire Line
 	1500 1700 1400 1700
 Wire Wire Line
 	1400 1600 1500 1600
-Text GLabel 1400 1800 0    50   Input ~ 0
-JoystickXDB7
-Text GLabel 1400 1900 0    50   Input ~ 0
-JoystickXDB6
 Text GLabel 1400 2000 0    50   Input ~ 0
-JoystickXDB5
+JoystickXDB7
 Text GLabel 1400 2100 0    50   Input ~ 0
-JoystickXDB4
+JoystickXDB6
 Text GLabel 1400 2200 0    50   Input ~ 0
-JoystickXDB3
+JoystickXDB5
 Text GLabel 1400 2300 0    50   Input ~ 0
-JoystickXDB2
+JoystickXDB4
 Text GLabel 1400 2400 0    50   Input ~ 0
-JoystickXDB1
+JoystickXDB3
 Text GLabel 1400 2500 0    50   Input ~ 0
+JoystickXDB2
+Text GLabel 1400 2600 0    50   Input ~ 0
+JoystickXDB1
+Text GLabel 1400 2700 0    50   Input ~ 0
 JoystickXDB0
 Text GLabel 1400 1700 0    50   Input ~ 0
-JoystickXEOC
+JoystickXNotEOC
 Wire Wire Line
 	1300 3000 1500 3000
 Wire Wire Line
@@ -246,6 +246,10 @@ Wire Wire Line
 	7000 900  9500 900 
 Connection ~ 7000 900 
 Wire Wire Line
+	8900 2600 9000 2600
+Wire Wire Line
+	8900 2500 9000 2500
+Wire Wire Line
 	8900 2400 9000 2400
 Wire Wire Line
 	8900 2300 9000 2300
@@ -256,35 +260,29 @@ Wire Wire Line
 Wire Wire Line
 	8900 2000 9000 2000
 Wire Wire Line
-	8900 1900 9000 1900
-Wire Wire Line
-	8900 1800 9000 1800
-Wire Wire Line
-	9000 1700 8900 1700
+	9000 1900 8900 1900
 Wire Wire Line
 	8900 1600 9000 1600
 Wire Wire Line
 	9000 1500 8900 1500
-Text GLabel 8900 2400 0    50   Input ~ 0
+Text GLabel 8900 2600 0    50   Input ~ 0
 CStickXDB0
-Text GLabel 8900 2300 0    50   Input ~ 0
+Text GLabel 8900 2500 0    50   Input ~ 0
 CStickXDB1
-Text GLabel 8900 2200 0    50   Input ~ 0
+Text GLabel 8900 2400 0    50   Input ~ 0
 CStickXDB2
-Text GLabel 8900 2100 0    50   Input ~ 0
+Text GLabel 8900 2300 0    50   Input ~ 0
 CStickXDB3
-Text GLabel 8900 2000 0    50   Input ~ 0
+Text GLabel 8900 2200 0    50   Input ~ 0
 CStickXDB4
-Text GLabel 8900 1900 0    50   Input ~ 0
+Text GLabel 8900 2100 0    50   Input ~ 0
 CStickXDB5
-Text GLabel 8900 1800 0    50   Input ~ 0
+Text GLabel 8900 2000 0    50   Input ~ 0
 CStickXDB6
-Text GLabel 8900 1700 0    50   Input ~ 0
+Text GLabel 8900 1900 0    50   Input ~ 0
 CStickXDB7
 Text GLabel 8900 1600 0    50   Input ~ 0
-CStickXEOC
-Wire Wire Line
-	8900 4100 9000 4100
+CStickXNotEOC
 Wire Wire Line
 	8900 4000 9000 4000
 Wire Wire Line
@@ -298,27 +296,95 @@ Wire Wire Line
 Wire Wire Line
 	8900 3500 9000 3500
 Wire Wire Line
-	9000 3400 8900 3400
+	8900 3400 9000 3400
 Wire Wire Line
-	8900 3300 9000 3300
+	9000 3300 8900 3300
 Wire Wire Line
-	9000 3200 8900 3200
-Text GLabel 8900 4100 0    50   Input ~ 0
-CStickYDB0
+	8900 2800 9000 2800
+Wire Wire Line
+	9000 2700 8900 2700
 Text GLabel 8900 4000 0    50   Input ~ 0
-CStickYDB1
+CStickYDB0
 Text GLabel 8900 3900 0    50   Input ~ 0
-CStickYDB2
+CStickYDB1
 Text GLabel 8900 3800 0    50   Input ~ 0
-CStickYDB3
+CStickYDB2
 Text GLabel 8900 3700 0    50   Input ~ 0
-CStickYDB4
+CStickYDB3
 Text GLabel 8900 3600 0    50   Input ~ 0
-CStickYDB5
+CStickYDB4
 Text GLabel 8900 3500 0    50   Input ~ 0
-CStickYDB6
+CStickYDB5
 Text GLabel 8900 3400 0    50   Input ~ 0
-CStickYDB7
+CStickYDB6
 Text GLabel 8900 3300 0    50   Input ~ 0
-CStickYEOC
+CStickYDB7
+Text GLabel 8900 2800 0    50   Input ~ 0
+CStickYNotEOC
+Text GLabel 1400 1600 0    50   Input ~ 0
+JoystickXNotCONVST
+Text GLabel 1400 1800 0    50   Input ~ 0
+JoystickXNotCS
+Text GLabel 1400 1900 0    50   Input ~ 0
+JoystickXNotRD
+Wire Wire Line
+	1400 1800 1500 1800
+Wire Wire Line
+	1400 1900 1500 1900
+Text GLabel 1400 2800 0    50   Input ~ 0
+JoystickYNotCONVST
+Text GLabel 1400 3200 0    50   Input ~ 0
+JoystickYNotCS
+Text GLabel 1400 3300 0    50   Input ~ 0
+JoystickYNotRD
+Wire Wire Line
+	1400 2800 1500 2800
+Wire Wire Line
+	1400 3300 1500 3300
+Text GLabel 3900 1500 0    50   Input ~ 0
+TriggerLNotCONVST
+Text GLabel 3900 1700 0    50   Input ~ 0
+TriggerLNotCS
+Text GLabel 3900 1800 0    50   Input ~ 0
+TriggerLNotRD
+Wire Wire Line
+	3900 1700 4000 1700
+Wire Wire Line
+	3900 1800 4000 1800
+Text GLabel 3900 2700 0    50   Input ~ 0
+TriggerRNotCONVST
+Text GLabel 3900 2900 0    50   Input ~ 0
+TriggerRNotCS
+Text GLabel 3900 3000 0    50   Input ~ 0
+TriggerRNotRD
+Wire Wire Line
+	3900 2800 4000 2800
+Wire Wire Line
+	3900 2700 4000 2700
+Text GLabel 8900 2700 0    50   Input ~ 0
+CStickYNotCONVST
+Text GLabel 8900 2900 0    50   Input ~ 0
+CStickYNotCS
+Text GLabel 8900 3200 0    50   Input ~ 0
+CStickYNotRD
+Text GLabel 8900 1500 0    50   Input ~ 0
+CStickXNotCONVST
+Text GLabel 8900 1700 0    50   Input ~ 0
+CStickXNotCS
+Text GLabel 8900 1800 0    50   Input ~ 0
+CStickXNotRD
+Wire Wire Line
+	8900 1700 9000 1700
+Wire Wire Line
+	9000 1800 8900 1800
+Wire Wire Line
+	8900 2900 9000 2900
+Wire Wire Line
+	8900 3200 9000 3200
+Text GLabel 2700 7500 2    50   Input ~ 0
+GCLogicGround
+Wire Wire Line
+	2600 6800 2600 7500
+Wire Wire Line
+	2600 7500 2700 7500
 $EndSCHEMATC
